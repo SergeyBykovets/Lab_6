@@ -1,0 +1,12 @@
+<project name="Lab_3" default="generate-javadoc" basedir=".">
+    <property name="doc" value="doc"/>
+    <property name="sourceDir" value="src"/>
+    <target name="generate-javadoc">
+        <mkdir dir="${doc}"/>
+        <javadoc destdir="${doc}" sourcepath="${sourceDir}">
+            <packageset dir="${sourceDir}">
+                <include name="**/*.java"/>
+            </packageset>
+        </javadoc>
+    </target>
+</project>

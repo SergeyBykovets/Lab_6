@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Навчання/ІПЗ/lab 6</OriginalElement>
+  <nodes>
+    <node x="311.01245753114375" y="298.321630804077">work6.ConcreteStrategy2</node>
+    <node x="86.72253680634196" y="298.321630804077">work6.ConcreteStrategy1</node>
+    <node x="-136.3069082672707" y="422.52548131370327">work6.Main</node>
+    <node x="-218.2853907134768" y="66.40430351075878">work6.Context</node>
+    <node x="186.90826727066815" y="107.64326160815403">work6.Strategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="work6.ConcreteStrategy1" target="work6.Strategy" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="191.72253680634196" y="227.81653454133635" />
+      <point x="300.9535673839185" y="227.81653454133635" />
+      <point x="9.045300113250335" y="30.526047565118915" />
+    </edge>
+    <edge source="work6.ConcreteStrategy2" target="work6.Strategy" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="416.01245753114375" y="227.81653454133635" />
+      <point x="301.67383918459797" y="227.81653454133635" />
+      <point x="9.765571913929818" y="31.96659116647791" />
+    </edge>
+    <edge source="work6.Context" target="work6.Strategy" relationship="TO_ONE">
+      <point x="0.0" y="-69.0" />
+      <point x="-103.2853907134768" y="138.0" />
+      <point x="218.5203850509626" y="138.0" />
+      <point x="218.5203850509626" y="154.32163080407702" />
+      <point x="239.40826727066815" y="154.32163080407702" />
+      <point x="-52.5" y="31.5" />
+    </edge>
+    <edge source="work6.Main" target="work6.Context" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-54.3069082672707" y="460.5" />
+      <point x="-103.2853907134768" y="460.5" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="work6.Main" target="work6.ConcreteStrategy1" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-54.3069082672707" y="478.0" />
+      <point x="191.72253680634196" y="478.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="work6.Main" target="work6.ConcreteStrategy2" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-54.3069082672707" y="478.0" />
+      <point x="416.01245753114375" y="478.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.3883647798742138" showDependencies="true" x="212.00000000000006" y="304.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
